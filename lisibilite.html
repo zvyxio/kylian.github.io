@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet SIN — Système d’alarme</title>
+    <style>
+        body {
+            background: #444242;
+            color: #0bf01e;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #eb160f;
+        }
+
+        h2 {
+            color: #12e663;
+            margin-top: 30px;
+        }
+
+        p {
+            max-width: 600px;
+        }
+
+        img {
+            margin-top: 20px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Projet SIN — Système d’alarme</h1>
+
+    <h2>Objectif</h2>
+    <p>
+        Ce projet a pour but de concevoir un système d’alarme capable de détecter une variation anormale de température. 
+        Il utilise un capteur numérique pour mesurer les données en temps réel. 
+        Une alarme sonore se déclenche automatiquement en cas de dépassement d’un seuil critique.
+    </p>
+
+    <h2>Architecture</h2>
+    <p>
+        Le système repose sur un microcontrôleur Arduino, un capteur DS18B20 et un buzzer. 
+        Les composants sont connectés sur une plaque d’essai afin de faciliter le montage. 
+        Le code Arduino lit les valeurs et déclenche l’alarme si nécessaire.
+    </p>
+
+    <img src="img/schema.png" alt="Schéma du montage avec capteur DS18B20 et Arduino">
+
+</body>
+</html>
